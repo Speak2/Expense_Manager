@@ -67,7 +67,7 @@ const ExpensePage = () => {
 
   return (
     <div className="container">
-      <h2>Expense Table</h2>
+      <h2>Expense Form</h2>
       <form onSubmit={handleSubmit} className="expense-form">
         <label>
           Expense Category:
@@ -114,6 +114,7 @@ const ExpensePage = () => {
         </label>
         <button type="submit">Add Expense</button>
       </form>
+      <h2>Expense Table</h2>
       <table className="expense-table">
         <thead>
           <tr>
